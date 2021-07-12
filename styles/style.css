@@ -1,0 +1,124 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* top player style */
+
+/* common styles */
+.top-players{
+    margin-bottom: 30px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 21px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+.section-title{
+    color: blue;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
+/*----------------
+ top vlog styles 
+ ---------------*/
+ .vlogs{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-row-gap: 26px;
+ }
+ .vlog{
+     display: flex;
+ }
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.vlog-info{
+    margin: 16px;
+}
+.vlog-title{
+    font-size: 20px;
+}
+.vlog-author{
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.vlog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562eff;
+}
+/* --------------
+course style 
+------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    width: 252px;
+    height: 315px;
+    border-radius: 10px;
+    background-color: rgba(252, 241, 241, 0.993);
+    box-shadow: violet;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 13px;
+}
+.fa-star.filled{
+   color: #ffc014; 
+}
+.fa-star.empty{
+    color: #aeaeae; 
+}
+.course-duration{
+    background-color: rgba(7, 7, 241, 0.37);
+    border-radius: 40px;
+}
+.course-title{
+    font-size: 21px;
+    margin-left: 13px;
+}
+.course-author{
+    margin-left: 13px;
+}
+
