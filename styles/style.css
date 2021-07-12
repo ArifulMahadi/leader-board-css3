@@ -121,4 +121,35 @@ course style
 .course-author{
     margin-left: 13px;
 }
+/*---------------
+ media quaries
+ ---------------- */
+ @media only screen and (max-width: 689px){
+     .container{
+         width: 100%;
+     }
+    .players{
+          grid-template-columns: repeat(1, 1fr);
+      }
+      .player{
+        flex-direction: column;
+      }
+      .vlogs{
+          grid-template-columns: repeat(1, 1fr);
+      }
+      .courses{
+          
+      }
+ }
+ @media only screen and (min-width:689px) and ( max-width:992px) {
+     .container{
+         width: 100%;
+     }
+     .players{
+        grid-template-columns: repeat(2, 1fr);
+     }
+     .courses{
+        grid-template-columns: repeat(2, 1fr);
+     }
 
+ }
